@@ -1,0 +1,43 @@
+#! /bin/bash
+
+
+if ( gcc -o adder adder.c )
+then 
+  echo "Adder build successful"
+  mv adder ../
+else
+  echo "Adder build failed"
+fi
+
+if ( gcc -o subtr adder.c )
+then 
+  echo "Subtr build successful"
+  mv subtr ../
+else
+  echo " build failed"
+fi
+
+
+if ( gcc -o adder adder.c )
+then 
+  echo "Adder build successful"
+  mv adder ../
+else
+  echo "Adder build failed"
+fi
+
+if ( gcc -o adder adder.c )
+then 
+  echo "Adder build successful"
+  mv adder ../
+else
+  echo "Adder build failed"
+fi
+
+if ( gcc -o adder adder.c )
+then 
+  echo "Adder build successful"
+  mv adder ../
+else
+  echo "Adder build failed"
+fi
